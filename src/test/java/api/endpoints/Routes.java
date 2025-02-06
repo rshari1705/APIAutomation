@@ -16,5 +16,12 @@ public class Routes {
 	public static String get_url= base_url+"/user/{username}";
 	public static String put_url= base_url+"/user/{username}";
 	public static String delete_url= base_url+"/user/{username}";
+	
+	//Pet Module
+	
+	public static String pet_post_url= base_url+"/pet";
+	public static String pet_get_url= base_url+"/pet/{petId}";
+	public static String pet_put_url= base_url+"/pet";
+	public static String pet_delete_url= base_url+"/pet/{petId}";
 
 }
