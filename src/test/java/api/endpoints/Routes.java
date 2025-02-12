@@ -23,5 +23,10 @@ public class Routes {
 	public static String pet_get_url= base_url+"/pet/{petId}";
 	public static String pet_put_url= base_url+"/pet";
 	public static String pet_delete_url= base_url+"/pet/{petId}";
-
+	
+	//Strore Module
+	public static String store_post_url= base_url+"/store/order";
+	public static String store_get_url= base_url+"/store/order/{orderId}";
+	public static String store_put_url= base_url+"/store";
+	public static String store_delete_url=base_url+"/store/order/{orderId}";
 }

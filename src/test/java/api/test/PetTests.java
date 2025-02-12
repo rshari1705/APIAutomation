@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import com.github.javafaker.Faker;
 
 import api.endpoints.PetEndPoints;
-import api.endpoints.UserEndPoint;
 import api.payload.Pet;
 import io.restassured.response.Response;
 

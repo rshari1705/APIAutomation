@@ -6,8 +6,10 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="api.test.UserTests"/>
-       <!--<class name="api.test.DDtest"/>
+      <!--class name="api.test.UserTests"/>-->
+      <class name="api.test.StoreTest"/>
+      <!--class name="api.test.PetTests"/>
+       <<class name="api.test.DDtest"/>
       <class name="APIRequest.Cookies"/>
       <class name="APIRequest.PostRequestWays"/>
       <class name="APIRequest.PathAndQueryParameters"/>
